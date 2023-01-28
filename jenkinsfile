@@ -1,11 +1,9 @@
 pipeline {
-    agent any
-
-    stages {
-        stage('checkout') {
-            steps {
-                echo 'Checkout from Jenkins file'
-            }
+   agent any
+   stages{
+    stage("Checkout"){
+        steps{
+            echo "Testing the JenkinsFile in PipeLine"
         }
     }
-}
+   }
