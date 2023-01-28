@@ -1,7 +1,7 @@
-pileline{
+pileline {
     agent any
 
-    stages{
+    stages {
         stage("Checkout"){
             steps {
                 echo "Testing the JenkinsFile in PipeLine"
