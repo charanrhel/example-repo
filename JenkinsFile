@@ -1,0 +1,11 @@
+pileline{
+    agent any
+
+    stages{
+        stage("Checkout"){
+            steps {
+                echo "Testing the JenkinsFile in PipeLine"
+            }
+        }
+    }
+}
