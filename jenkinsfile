@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'Checkout from Jenkins file'
+            }
+        }
+    }
+}
